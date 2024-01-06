@@ -41,16 +41,7 @@
   },
   "main": "index.js",
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shashank2314/shoping-app.git"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shashank2314/shoping-app/issues"
-  },
-  "homepage": "https://github.com/shashank2314/shoping-app#readme",
-  "description": ""
+  "license": "ISC"
 }
