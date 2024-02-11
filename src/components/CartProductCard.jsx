@@ -9,7 +9,7 @@ export default function CartProductCard({ product }) {
             <img className="CcardImage" src={product.image} alt="img" loading="lazy" />
             <div>
                 <h2 className="CcardHeading">{product.title}</h2>
-                <p className="CcardDesc">{product.description.substring(0, 100) + "..."}</p>
+                <p className="CcardDesc">{product.description.substring(0, 60) + "..."}</p>
                 <div className="CcardpriceDiv" >
                     <div className="HcardPrice">${product.price}</div>
                     <div className="Delete_icon" onClick={()=>dispatch(RemoveToCart(product.id))}><MdDelete/></div>

@@ -23,7 +23,7 @@ export default function Cart(){
             ):
             (
                 <div className="CardDiv2">
-                    <div>
+               <div>
                         {
                             cart.map((product)=><div>
                                 <CartProductCard key={product.id} product={product}/>
@@ -32,7 +32,7 @@ export default function Cart(){
                             )
                         }
                     </div>
-                    <CartSidePanel totalAmount={totalAmount}/>
+                    <CartSidePanel totalAmount={ Math.round(totalAmount * 100) / 100}/>
                 </div>
             )
         }
