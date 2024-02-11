@@ -226,6 +226,14 @@
   .CcardImage{
     width:70%;
   }
+  .Greenbtn{
+    font-size: .6rem;
+    font-weight: normal;
+
+  }
+  .CsDesc{
+    font-size: 1rem;
+  }
 }
 
 /* animation */
